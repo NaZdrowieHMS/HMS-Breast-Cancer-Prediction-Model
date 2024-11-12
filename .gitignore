@@ -164,3 +164,7 @@ cython_debug/
 #dataset
 ai_model/dataset/
 ai_model/Dataset_BUSI_with_GT/
+
+# model
+ai_model/breast_ultrasound_model.h5
+ai_model/java_model/
