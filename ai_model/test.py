@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import numpy as np
-import os
 
 
 MODEL_PATH = "./"
@@ -9,7 +8,6 @@ BREAST_USG_MODEL_H5 = "breast_ultrasound_model.h5"
 
 # Load model (HDF5 or SavedModel)
 model = tf.keras.models.load_model(BREAST_USG_MODEL_H5)  # HDF5
-# model = tf.keras.models.load_model(MODEL_PATH)  # SavedModel for Java
 
 
 print(f"Model successfully loaded! Model Summary:")
