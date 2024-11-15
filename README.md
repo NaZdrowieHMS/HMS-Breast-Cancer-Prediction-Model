@@ -4,7 +4,8 @@ AI model used by Health Monitoring System to predict breast cancer based on USG
 
 ## Model Description
 
-    Model avaiable and deployed on Hugging Face:
+Model available and deployed on Hugging Face:
+
 1. https://huggingface.co/HealthMonitoringSystem/Breast_Cancer_Prediction_AI_Model/tree/main
 2. https://api-inference.huggingface.co/models/HealthMonitoringSystem/Breast_Cancer_Prediction_AI_Model
 
@@ -29,6 +30,6 @@ pip install -r requirements.txt
 
 
 ## Convert the model format from h5 to onnx
-The SavedModel format is used by HealthMonitoringSystemApplication java backend
+The onnx format is used by HealthMonitoringSystemApplication java AI service
 
 1. Run the `h5_to_onnx_model_converter.py` file
